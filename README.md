@@ -1,19 +1,18 @@
 <div align="center">
 
-# 🤖 AI Powered Content Generator
+# 💰 Expense Tracker Dashboard
 
-### Generate high-quality content instantly using OpenAI 🚀
+### Smart Expense Tracking & Financial Management 📊
 
-An AI-powered web application built with **Next.js**, **TypeScript**, **Tailwind CSS**, **OpenAI API**, **Clerk Authentication**, and **Neon PostgreSQL**.
+Manage your daily income and expenses with a clean, responsive dashboard.
 
 ---
 
-![Next.js](https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js)
-![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react)
+![Next.js](https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js)
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwind-css)
-![OpenAI](https://img.shields.io/badge/OpenAI-GPT-black?style=for-the-badge&logo=openai)
-![Neon](https://img.shields.io/badge/Neon-PostgreSQL-00E699?style=for-the-badge)
+![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss)
+![Neon PostgreSQL](https://img.shields.io/badge/Neon-PostgreSQL-00E599?style=for-the-badge)
 
 </div>
 
@@ -25,38 +24,29 @@ An AI-powered web application built with **Next.js**, **TypeScript**, **Tailwind
 |-------|---------|
 | **Intern ID** | CITS2334 |
 | **Intern Name** | Binit Nayak |
-| **Project Name** | AI Powered Content Generator |
+| **Project Name** | Expense Tracker Dashboard |
 | **Project Duration** | 5 Days |
 
 ---
 
-# 📖 About
+# 📖 About Project
 
-AI Powered Content Generator is a modern web application that helps users generate high-quality AI content within seconds.
+Expense Tracker Dashboard is a modern web application that helps users manage their personal finances efficiently. Users can record income and expenses, organize transactions, monitor their financial status, and analyze spending through an interactive dashboard.
 
-Users can create:
-
-- 📝 Blog Posts
-- 📧 Emails
-- 📱 Social Media Captions
-- 🛒 Product Descriptions
-- 🎥 YouTube Titles
-- 💼 Professional Content
-
-using the power of **OpenAI**.
+The application focuses on simplicity, speed, and responsive design to provide a smooth user experience.
 
 ---
 
 # ✨ Features
 
-- 🤖 AI Content Generation
-- 🔐 Secure Authentication (Clerk)
-- 📜 Content History
-- 📋 Copy Generated Content
-- ⚡ Fast Response
-- ☁️ Neon PostgreSQL Database
+- 💰 Add Income
+- 💸 Add Expenses
+- 📊 Dashboard Analytics
+- 📅 Transaction History
+- 📈 Expense Summary
+- 🔍 Filter Transactions
 - 📱 Fully Responsive UI
-- 🎨 Modern Design
+- ⚡ Fast Performance
 
 ---
 
@@ -68,49 +58,47 @@ using the power of **OpenAI**.
 | React.js | UI Library |
 | TypeScript | Programming Language |
 | Tailwind CSS | Styling |
-| OpenAI API | AI Content Generation |
-| Clerk | User Authentication |
 | Neon PostgreSQL | Database |
-| Vercel | Deployment |
+| Drizzle ORM | Database ORM |
 
 ---
 
-# 📷 Screenshots
+# 📸 Project Screenshots
 
-## 🏠 Home Page
-
-![Home](./screenshots/home.png)
-
----
-
-## 📊 Dashboard
+## 🏠 Dashboard
 
 ![Dashboard](./screenshots/dashboard.png)
 
 ---
 
-## 🤖 AI Generator
+## 💰 Add Income
 
-![Generator](./screenshots/generator.png)
-
----
-
-## 📝 Templates
-
-![Templates](./screenshots/templates.png)
+![Income](./screenshots/income.png)
 
 ---
 
-## 📜 Content History
+## 💸 Add Expense
+
+![Expense](./screenshots/expense.png)
+
+---
+
+## 📋 Transaction History
 
 ![History](./screenshots/history.png)
+
+---
+
+## 📊 Analytics
+
+![Analytics](./screenshots/analytics.png)
 
 ---
 
 # 📂 Folder Structure
 
 ```text
-AI-Powered-Content-Generator
+Expense-Tracker-Dashboard
 │
 ├── app/
 ├── components/
@@ -132,13 +120,19 @@ Clone Repository
 git clone https://github.com/binitnayak/Expense-tracker-dashboard.git
 ```
 
-Install Packages
+Move into Project
+
+```bash
+cd Expense-tracker-dashboard
+```
+
+Install Dependencies
 
 ```bash
 npm install
 ```
 
-Run Project
+Run Development Server
 
 ```bash
 npm run dev
@@ -154,41 +148,36 @@ http://localhost:3000
 
 # 🔑 Environment Variables
 
-Create `.env.local`
+Create a `.env.local` file and add:
 
 ```env
-OPENAI_API_KEY=YOUR_OPENAI_API_KEY
-
 DATABASE_URL=YOUR_NEON_DATABASE_URL
 
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=YOUR_KEY
-
-CLERK_SECRET_KEY=YOUR_SECRET
+NEXT_PUBLIC_BASE_URL=http://localhost:3000
 ```
 
 ---
 
 # 🚀 Project Workflow
 
-1. User logs in using Clerk Authentication.
-2. Select an AI template.
-3. Enter a prompt.
-4. OpenAI generates the content.
-5. Content is displayed instantly.
-6. User can copy and save generated content.
-7. Generated content history is stored in Neon PostgreSQL.
+1. Add income records.
+2. Add expense records.
+3. View all transactions.
+4. Analyze income vs expenses.
+5. Monitor overall financial balance.
+6. Manage personal finances efficiently.
 
 ---
 
 # 🌟 Future Enhancements
 
-- AI Image Generator
-- PDF Export
-- DOCX Export
-- Multi-language Support
-- Team Workspace
-- Dark Mode
-- Voice Prompt Support
+- 🔐 User Authentication
+- 📄 PDF Report Export
+- 📊 Monthly Analytics
+- 🌙 Dark Mode
+- 📱 Mobile App Version
+- 🔔 Expense Alerts
+- ☁️ Cloud Backup
 
 ---
 
@@ -202,10 +191,16 @@ GitHub: https://github.com/binitnayak
 
 ---
 
+# 📄 License
+
+This project was developed as part of an internship learning program.
+
+---
+
 <div align="center">
 
-### ⭐ If you found this project useful, consider giving it a Star ⭐
+### ⭐ If you like this project, don't forget to Star the repository ⭐
 
-Made with ❤️ using Next.js + OpenAI
+Made with ❤️ using Next.js & Neon PostgreSQL
 
 </div>
